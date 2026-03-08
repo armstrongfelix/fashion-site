@@ -20,6 +20,10 @@
       rel="stylesheet"
     />
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
   </head>
   <body class="font-[Poppins] mx-auto p-0 box-border text-black">
     <div class="grid grid-cols-[5fr_4fr_5fr]">
@@ -97,7 +101,145 @@
         />
       </div>
 
-      <div class="border-3 border-[blue] w-full h-[100vh]"></div>
+      <div
+        class="overflow-y-srow w-full h-[100vh] text-[black] pt-6 flex flex-col gap-[75vh] pr-6"
+      >
+        <div class="w-full flex justify-end gap-5 text-[0.8rem]">
+          <div class="flex justify-end gap-3">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="20"
+              height="20"
+              viewBox="0 0 24 24"
+              fill="black"
+              stroke="currentColor"
+              stroke-width="1"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            >
+              <path
+                d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z"
+              />
+            </svg>
+            <h3>WISHLIST</h3>
+          </div>
+
+          <div class="flex justify-end gap-3">
+            <svg
+              width="20"
+              height="25"
+              viewBox="0 0 24 24"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M3 3H5L5.4 5M5.4 5L7 13H17L21 5H5.4Z"
+                fill="#333333"
+                stroke="#333333"
+                stroke-width="0.5"
+                stroke-linejoin="round"
+              />
+
+              <path
+                d="M7 13L6 15H17"
+                stroke="#333333"
+                stroke-width="1.5"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+
+              <circle cx="8" cy="18" r="2" fill="#333333" />
+              <circle cx="16" cy="18" r="2" fill="#333333" />
+            </svg>
+            <h3>CART</h3>
+          </div>
+        </div>
+
+        <section class="w-full flex flex-col gap-20 p-20">
+          <div class="w-full flex gap-10 justify-between">
+            <h2>CHOOSE SIZE</h2>
+            <p>SIZE CHART</p>
+          </div>
+
+          <div class="w-full flex gap-20 justify-between">
+            <div
+              class="border-[1.5px] border-black w-[35px] h-[35px] rounded-full flex justify-center items-center text-"
+            >
+              S
+            </div>
+            <div
+              class="bg-black border-[1.5px] border-black w-[35px] h-[35px] rounded-full flex justify-center items-center text-white"
+            >
+              M
+            </div>
+            <div
+              class="border-[1.5px] border-black w-[35px] h-[35px] rounded-full flex justify-center items-center text-"
+            >
+              L
+            </div>
+            <div
+              class="border-[1.5px] border-black w-[35px] h-[35px] rounded-full flex justify-center items-center text-"
+            >
+              XL
+            </div>
+          </div>
+
+          <div
+            class="w-full h-16 bg-black text-white font-semibold flex justify-center items-center"
+          >
+            <p>+ADD TO CART</p>
+          </div>
+
+          <div
+            class="w-full h-16 text-black font-semibold flex justify-center items-center border-[1px] border-black"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="20"
+              height="20"
+              viewBox="0 0 24 24"
+              fill="black"
+              stroke="currentColor"
+              stroke-width="1"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            >
+              <path
+                d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z"
+              />
+            </svg>
+            <p>ADD TO WISHLIST</p>
+          </div>
+
+          <div class="flex">
+            <div>
+              <img
+                class="w-120px h-[100px]"
+                src="./images/cloth-01.jpg"
+                alt="cloth 01"
+              />
+            </div>
+            <div>
+              <img
+                class="w-120px h-[100px]"
+                src="./images/cloth-01.jpg"
+                alt="cloth 01"
+                src="./images/cloth-02.jpg"
+                alt="cloth 03"
+              />
+            </div>
+            <div>
+              <img
+                class="w-120px h-[100px]"
+                src="./images/cloth-01.jpg"
+                alt="cloth 01"
+                src="./images/cloth-03.jpg"
+                alt="cloth 03"
+              />
+            </div>
+          </div>
+        </section>
+      </div>
     </div>
   </body>
 </html>
